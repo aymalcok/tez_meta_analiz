@@ -15,6 +15,7 @@ Bu depo, tezdeki benzetim çalışmalarının kodlarını, ham sonuçlarını ve
 | `tablolar_ikili.py` | İkili veri benzetiminin tablolarını CSV olarak üretir | Tablo 4-17 – 4-22 |
 | `sim_anlamsiz.py` | Anlamsız çalışma oranlarına ilişkin ek benzetim (324 senaryo, 20.000 tekrar, tek üreteç, tohum 7) | Bölüm 3.5.5; Tablo 4-15 ve 4-16 |
 | `tablolar_anlamsiz.py` | Ek benzetimin tablolarını CSV olarak üretir | Tablo 4-15 ve 4-16 |
+| `sekil_kucuk.py` | Küçük örneklemli duyarlılık analizinin şekli | Şekil 4-10 |
 | `sim_kucuk.py` | Küçük örneklemli çalışmalarla duyarlılık analizi (40 senaryo, 2.000 tekrar, tohum 20270000 + senaryo sırası) | Bölüm 3.5.7; Tablo 4-23 |
 | `sekiller.py`, `sekiller_guc.py`, `_ortak.py` | Bulgular bölümündeki benzetim şekilleri | Şekil 4-1 – 4-8 |
 | `compare.py`, `compare_bin.py` | Sonuçları tezdeki tablolarla hücre hücre karşılaştıran kontrol betikleri | — |
@@ -31,6 +32,7 @@ python3 tablolar_ikili.py                    # Tablo_4-17.csv ... Tablo_4-22.csv
 python3 sim_anlamsiz.py                      # sim_anlamsiz_R20000.csv (tek süreçte çalışır)
 python3 tablolar_anlamsiz.py                 # Tablo_4-15.csv, Tablo_4-16.csv
 python3 sim_kucuk.py 2000                    # sim_kucuk_R2000.csv
+python3 sekil_kucuk.py                       # sekiller/Sekil_4-10_kucuk_orneklem.png
 python3 sekiller.py; python3 sekiller_guc.py # sekiller/ klasörü
 ```
 
